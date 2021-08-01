@@ -39,5 +39,5 @@ prompt_vi_show_machine_name() {
 }
 
 CURRENT_LOCATION="%{$fg[grey]%}$box_prefix%{$fg[white]%}%{$bg[grey]%}%1~%{$reset_color%}%{$fg[grey]%}$box_suffix%{$reset_color%}"
-PROMPT="%(?,%F{242},%F{red}) ▲ %F{white}%f"
+PROMPT="%(?,%F{242},%F{red}) ⚡ %F{white}%f"
 RPS1='$CURRENT_LOCATION $(prompt_vi_git_status)%f$(prompt_vi_show_machine_name)'
